@@ -5,3 +5,51 @@
    margin: 0;
    padding: 0;
 }
+
+.background{
+   background-color: hsl(212, 45%, 89%);
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.cardSection{
+   background-color: hsl(0, 0%, 100%);
+   margin: 40px 10px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 20px 15px 0 15px;
+   width: 300px;
+}
+
+.imageContainer{
+   width: 300px;
+   border-radius: 20px;
+   margin: 20px;
+}
+
+.textSection{
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+}
+
+h1{
+   color: hsl(221, 27%, 20%);
+   padding: 20px 10px;
+   font-weight: 600;
+   text-shadow: 10px ;
+}
+
+h3{
+   color:hsl(220, 15%, 55%);
+   font-size: 15px;
+   font-weight: 400;
+   margin: 0 20px;
+}
+
